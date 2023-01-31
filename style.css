@@ -7,6 +7,7 @@
 body{
     background-image: url('/img/wp1899088-rango-wallpapers.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .detail{
     font-weight: bolder;
