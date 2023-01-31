@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url('/img/wp1899088-rango-wallpapers.jpg');
+    background-size: cover;
+}
+.detail{
+    font-weight: bolder;
+    text-align: center;
+    /* padding: 15px; */
+    /* border: 1px solid black; */
+    position: relative;
+    top: 150px;
+    left: 50px;
+    /* height: 150px; */
+    width: 250px;
+}
+/* .detail:hover{
+    background-color: green;
+    text-shadow: 10px 5px 20px blue;
+} */
+.eye{
+    /* border: 1px solid black; */
+    height: 150px;
+    width: 150px;
+}
+#left-eye{
+    cursor: pointer;
+    border-radius: 500px;
+    height: 180px;
+    width: 180px;
+    position: relative;
+    left: 500px;
+    top: 70px;
+}
+#right-eye{
+    cursor: pointer;
+    border-radius: 500px;
+    height: 220px;
+    width: 220px;
+    position: relative;
+    left: 865px;
+    bottom: 160px;
+}
+#ross{
+    visibility: hidden;
+    position: absolute;
+    top: 20px;
+    height: 400px;
+    width: 400px;
+    border-radius: 500px;
+    right: 1100px;
+}
+#lips{
+    cursor: pointer;
+    position: absolute;
+    /* border: 1px solid black; */
+    height: 60px;
+    width: 500px;
+    top: 280px;
+    left: 520px;
+}
